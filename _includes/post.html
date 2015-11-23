@@ -7,6 +7,25 @@
 	<div class="col-sm-10">
 	 <span class="post-date">
 	   {% assign d = page.date | date: "%d" | plus:'0' %}
+	   {% if d == "1" %}<sup>er</sup>{% endif %}
+	   {% case m %}
+           {% when '1' %}janvier
+           {% when '2' %}février
+           {% when '3' %}mars
+           {% when '4' %}avril
+           {% when '5' %}mai
+           {% when '6' %}juin
+           {% when '7' %}juillet
+           {% when '8' %}août
+           {% when '9' %}septembre
+           {% when '10' %}octobre
+           {% when '11' %}novembre
+           {% when '12' %}décembre
+           {% endcase %}
+           {{ page.date | date: "%Y"}}
+           {% endif %}
+	   
+	   
 	   {{ page.date | date: "%B" }} 
 	   {% case d %}
 	     {% when 1 or 21 or 31 %}{{ d }}st,
