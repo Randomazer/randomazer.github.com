@@ -1,53 +1,110 @@
 ---
-layout: page
-permalink: 404.html
+title: 404
+exclude_from_nav: true
 ---
-<!----------------------------------------------------------------
-     _ _           _ _          
-  __| | |__  _   _| | |         Ascii arts included in this page:
- / _` | '_ \| | | | | |         - R2D2, provided by: http://www.chris.com/
-| (_| | |_) | |_| | | |         - Texts, generated from: http://www.network-science.de/ascii/
- \__,_|_.__/ \__, |_|_|         http://github.com/dbtek/dbyll
--------------|___/------------------------------------------------>
 
-  <style>
-    pre {
-          background: none;
-          border: none;
-    }
-  </style>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Error!</title>
+    <style>
+      html {
+  font-size: 62.5%;
+}
 
-  <pre>
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-                       444444444       000000000            444444444   
-                      4::::::::4     00:::::::::00         4::::::::4  
-                     4:::::::::4   00:::::::::::::00      4:::::::::4  
-                    4::::44::::4  0:::::::000:::::::0    4::::44::::4  
-                   4::::4 4::::4  0::::::0   0::::::0   4::::4 4::::4  
-                  4::::4  4::::4  0:::::0     0:::::0  4::::4  4::::4  
-                 4::::4   4::::4  0:::::0     0:::::0 4::::4   4::::4  
-                4::::444444::::4440:::::0 000 0:::::04::::444444::::444
-                4::::::::::::::::40:::::0 000 0:::::04::::::::::::::::4
-                4444444444:::::4440:::::0     0:::::04444444444:::::444
-                          4::::4  0:::::0     0:::::0          4::::4  
-                          4::::4  0::::::0   0::::::0          4::::4  
-                          4::::4  0:::::::000:::::::0          4::::4  
-                        44::::::44 00:::::::::::::00         44::::::44
-                        4::::::::4   00:::::::::00           4::::::::4
-                        4444444444     000000000             4444444444
+body {
+  padding: 60px;
+  background: #fafafa;
+  font-size: 150%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
 
-         ,-----.             _   _     _           _                 _     _               _   
-       ,'_/_|_\_`.          | |_| |__ (_)___   ___| |__   ___  _   _| | __| |  _ __   ___ | |_ 
-      /<<::8[O]::>\         | __| '_ \| / __| / __| '_ \ / _ \| | | | |/ _` | | '_ \ / _ \| __|
-     _|-----------|_        | |_| | | | \__ \ \__ \ | | | (_) | |_| | | (_| | | | | | (_) | |_ 
- :::|  | ====-=- |  |:::     \__|_| |_|_|___/ |___/_| |_|\___/ \__,_|_|\__,_| |_| |_|\___/ \__|
- :::|  | -=-==== |  |:::                                                                         
- :::\  | ::::|()||  /:::     _                                                          
- ::::| | ....|()|| |::::    | |__   __ _ _ __  _ __   ___ _ __       _____   _____ _ __ 
-     | |_________| |        | '_ \ / _` | '_ \| '_ \ / _ \ '_ \     / _ \ \ / / _ \ '__|
-     | |\_______/| |        | | | | (_| | |_) | |_) |  __/ | | |_  |  __/\ V /  __/ |   
-    /   \ /   \ /   \       |_| |_|\__,_| .__/| .__/ \___|_| |_( )  \___| \_/ \___|_|   
-    `---' `---' `---'                   |_|   |_|              |/                       
+#wrap {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border-top: 3px solid #b00f08;
+}
+
+hr {
+  display: none;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+a {
+  color: #731217;
+}
+
+a:hover {
+  color: #b00f08;
+}
+
+h1 {
+  margin: 0 0 15px;
+  font-size: 240%;
+  font-weight: 300;
+  color: #731217;
+}
+
+.content {
+  padding: 15px;
+  margin: 15px 0;
+  background: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: #666;
+}
+
+pre {
+  overflow: auto;
+  padding: 15px;
+  background: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+pre.exception {
+  background-color: #ffeded;
+}
+
+pre em {
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <h1>Error!</h1>
+      <p>The requested url <script>
+         document.write(window.location.pathname);
+       </script> was not found.</p>
+
+   
+    
 
 
-    </pre>
+    </div>
+  </body>
+</html>
