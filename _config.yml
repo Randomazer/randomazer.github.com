@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: Дневник программиста
-description: Привет! Меня зовут Юрий. Здесь я пишу об интересных для меня вещах. О программировании на Python, Go, Java, C++ и Unix администрировании.
+description: Привет! Меня зовут Юрий. Здесь я пишу об интересных для меня вещах. О программировании на Python, Go, Java, C++б а также Unix администрировании.
 
 # url is currently only used only for the RSS feed in feed.xml
 url: http://scotte.github.io
